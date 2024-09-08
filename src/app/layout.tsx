@@ -18,6 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Whatsapp</title>
+        <link rel="icon" href="/icon.ico" sizes="any" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem disableTransitionOnChange>
         <ConvexClientProvider>{children}</ConvexClientProvider>
